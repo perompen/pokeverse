@@ -6,3 +6,15 @@ body {
 h1 {
   font-weight: 800 !important;
 }
+
+#pokemonCard {
+  width: 250px;
+  margin: 10px
+}
+
+#pokemonCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
